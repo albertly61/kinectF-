@@ -1,0 +1,10 @@
+#include <boost/thread/thread.hpp>
+#include <pcl/common/common_headers.h>
+#include <pcl/features/normal_3d.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/point_types.h>
+#include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/console/parse.h>
+#include <pcl/io/file_io.h>
+//#include <pcl/registration/registration.h>
+#include <pcl/registration/icp.h>
